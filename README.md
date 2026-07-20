@@ -1,5 +1,6 @@
-🏦 Smart Lender – AI-Powered Loan Approval Prediction System
-📌 Project Overview
+## 🏦 Smart Lender – AI-Powered Loan Approval Prediction System
+
+## 📌 Project Overview
 
 Smart Lender is an end-to-end Machine Learning web application that predicts whether a loan application is likely to be Approved or Rejected based on an applicant's financial and personal information.
 
@@ -7,7 +8,7 @@ The system automates the traditional loan screening process by combining data pr
 
 The project follows the complete Machine Learning lifecycle—from dataset collection and preprocessing to model deployment and prediction—making it an excellent demonstration of practical AI in the banking and financial domain. The workflow includes data cleaning, feature engineering, class balancing using SMOTE, feature scaling, model training with multiple algorithms, model evaluation, and deployment through a user-friendly web interface.
 
-🎯 Objective
+## 🎯 Objective
 
 The primary objective of Smart Lender is to:
 
@@ -43,11 +44,13 @@ Deliver instant loan eligibility predictions using Machine Learning
                         │
                         ▼
        Approved ✅ / Rejected ❌
-🏗 System Architecture
+       
+## 🏗 System Architecture
 
 The Smart Lender application is divided into five major layers:
 
-1️⃣ Data Layer
+
+## 1️⃣ Data Layer
 
 Stores applicant loan information collected from the Loan Prediction dataset.
 
@@ -58,7 +61,8 @@ Income Details
 Loan Details
 Credit History
 Property Information
-2️⃣ Data Processing Layer
+
+## 2️⃣ Data Processing Layer
 
 Raw data undergoes preprocessing before training:
 
@@ -70,7 +74,7 @@ Feature scaling using StandardScaler
 
 This ensures the dataset is clean, balanced, and ready for machine learning.
 
-3️⃣ Machine Learning Layer
+## 3️⃣ Machine Learning Layer
 
 Multiple supervised learning algorithms are trained and evaluated:
 
@@ -81,7 +85,7 @@ Gradient Boosting (used as the boosting model in the project)
 
 The best-performing model is serialized and stored as a .pkl file for deployment.
 
-4️⃣ Flask Application Layer
+## 4️⃣ Flask Application Layer
 
 The trained model is integrated into a Flask application.
 
@@ -93,11 +97,11 @@ Loading the trained model
 Making predictions
 Displaying loan approval results
 
-5️⃣ Deployment Layer
+## 5️⃣ Deployment Layer
 
 The application can be deployed on cloud platforms, enabling users to access the prediction system through a web browser. The architecture references IBM Cloud as the deployment target.
 
-🤖 Machine Learning Pipeline
+## 🤖 Machine Learning Pipeline
 Dataset
     │
     ▼
@@ -166,7 +170,7 @@ Credit History             Loan Application
 
 This design separates applicant information, loan requests, prediction results, and machine learning metadata, making the system scalable and maintainable.
 
-💻 Technologies Used
+## 💻 Technologies Used
 Programming
 Python
 HTML
@@ -188,7 +192,9 @@ Backend
 Flask
 Deployment
 IBM Cloud (architecture target)
-📊 Key Features
+
+
+## 📊 Key Features
 
 ✅ Loan approval prediction
 
@@ -210,7 +216,7 @@ IBM Cloud (architecture target)
 
 ✅ Model persistence using Pickle
 
-🔄 End-to-End Workflow
+## 🔄 End-to-End Workflow
 User
    │
    ▼
@@ -236,7 +242,9 @@ Store Prediction Result
    │
    ▼
 Display Loan Status
-🌟 Project Highlights
+
+## 🌟 Project Highlights
+
 End-to-end Machine Learning implementation
 Real-world banking use case
 Multiple ML algorithm comparison
